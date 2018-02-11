@@ -1,12 +1,12 @@
-package List;
+package Structure;
 
 public class Linkedlist {
 
-    Node head = null;
-    static class Node{
+    private Node head = null;
+    private static class Node{
         Node next = null;
         int data;
-        public Node(int data){
+        private Node(int data){
             this.data = data;
         }
     }
